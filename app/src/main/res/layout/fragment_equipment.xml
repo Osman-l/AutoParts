@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.autoparts.Fragment.FragmentEquipment"
+    android:background="@color/colorWhite">
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+            <TableLayout
+                android:id = "@+id/relativeLayout1"
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:background = "@color/colorPrimary" >
+            <TableRow
+                android:id="@+id/row"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width = "80dp"
+                    android:layout_height = "wrap_content"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "Модель"
+                    android:textColor = "#ffffff" />
+
+                <TextView
+                    android:layout_width = "145dp"
+                    android:layout_height = "wrap_content"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "Год выпуска"
+                    android:textColor = "#ffffff"/>
+
+                <TextView
+                    android:layout_width = "100dp"
+                    android:layout_height = "wrap_content"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "Двигатель"
+                    android:textColor = "#ffffff"/>
+
+                <TextView
+                    android:layout_width = "115dp"
+                    android:layout_height = "wrap_content"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "Мощность"
+                    android:textColor = "#ffffff"/>
+
+                <TextView
+                    android:layout_width = "80dp"
+                    android:layout_height = "wrap_content"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "Объём"
+                    android:textColor = "#ffffff"/>
+
+                <TextView
+                    android:layout_width = "40dp"
+                    android:layout_height = "wrap_content"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "Цил."
+                    android:textColor = "#ffffff"/>
+                <TextView
+                    android:layout_width = "85dp"
+                    android:layout_height = "wrap_content"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "Топливо"
+                    android:textColor = "#ffffff"/>
+                <TextView
+                    android:layout_width = "150dp"
+                    android:layout_height = "wrap_content"
+                    android:gravity = "center"
+                    android:padding = "5dp"
+                    android:text = "Кузов"
+                    android:textColor = "#ffffff"/>
+            </TableRow>
+                    <ListView
+                        android:id="@+id/listview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+            </TableLayout>
+
+
+
+
+
+</HorizontalScrollView>
+</FrameLayout>

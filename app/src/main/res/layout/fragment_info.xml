@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.autoparts.Fragment.FragmentInfo"
+    android:background="@color/colorWhite">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/o_kompanii"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/mail"
+                style="@style/Theme.AppCompat.Light"
+                android:text="@string/o_kompanii"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:layout_gravity="right"
+                android:textAlignment="gravity"
+                />
+
+            <TextView
+                android:id="@+id/telefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/mail"
+                android:text="телефон: +79787887758"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/telefone"
+                android:text="mail: lyumanov.o.i14@gmail.com"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/telefone"
+                android:layout_below="@+id/mail"
+                android:text="офис: г.Симферополь"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:padding="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>

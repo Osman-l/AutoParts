@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Auto Parts</string>
+    <string name="title_home">Каталог</string>
+    <string name="title_dashboard">Номер запчасти</string>
+    <string name="title_notifications">Информация</string>
+    <string name="Model">Модель</string>
+    <string name="Year">Notifications</string>
+    <string name="motor">Notifications</string>
+    <string name="torg">Notifications</string>
+    <string name="size">Notifications</string>
+    <string name="o_kompanii">  Мобильное приложение «Auto Parts» позволит выбрать свой автомобиль по марке,
+        модели, и года выпуска после чего переходя на каталог выбирая агрегат, к которому нужна запчасть.
+        Пользователь увидит вин код оригинальной запчасти и аналогов, которые хорошо зарекомендовали себя
+        по качеству и цене.</string>
+    <string-array name="spinnertext">
+        <item>Кузов</item>
+        <item>Тормозная система</item>
+        <item>Привод колес</item>
+        <item>Коробка передач</item>
+        <item>Детали подвески</item>
+        <item>Сцепление</item>
+        <item>Фильтры</item>
+        <item>Система зажигания</item>
+        <item>Двигатель</item>
+        <item>Рулевое управление</item>
+        <item>Ременной привод</item>
+        <item>Система подачи топлева</item>
+        <item>Система выпуска</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+</resources>

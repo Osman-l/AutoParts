@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id = "@+id/model"
+        android:layout_width = "80dp"
+        android:layout_height = "wrap_content"
+        android:ellipsize = "end"
+        android:padding = "5dp"
+        android:singleLine = "true"
+        android:gravity = "center"
+        android:layout_marginLeft="10dp"
+      />
+
+    <TextView
+        android:id = "@+id/god"
+        android:layout_width = "120dp"
+        android:layout_height = "wrap_content"
+        android:ellipsize = "end"
+        android:layout_marginLeft="15dp"
+        android:singleLine = "true"
+        android:gravity = "center"
+
+        />
+
+    <TextView
+        android:id = "@+id/motor"
+        android:layout_width = "100dp"
+        android:layout_height = "wrap_content"
+        android:ellipsize = "end"
+        android:padding = "5dp"
+        android:singleLine = "true"
+        android:gravity = "center"
+   />
+
+    <TextView
+        android:id = "@+id/moshnost"
+        android:layout_width = "115dp"
+        android:layout_height = "wrap_content"
+        android:ellipsize = "end"
+        android:padding = "5dp"
+        android:singleLine = "true"
+        android:gravity = "center"
+        />
+    <TextView
+        android:id = "@+id/obem"
+        android:layout_width = "80dp"
+        android:layout_height = "wrap_content"
+        android:ellipsize = "end"
+        android:padding = "5dp"
+        android:singleLine = "true"
+        android:gravity = "center"
+        />
+    <TextView
+        android:id = "@+id/celinder"
+        android:layout_width = "40dp"
+        android:layout_height = "wrap_content"
+        android:ellipsize = "end"
+        android:padding = "5dp"
+        android:singleLine = "true"
+        android:gravity = "center"
+        />
+    <TextView
+        android:id = "@+id/toplevo"
+        android:layout_width = "85dp"
+        android:layout_height = "wrap_content"
+        android:ellipsize = "end"
+        android:padding = "5dp"
+        android:singleLine = "true"
+        android:gravity = "center"
+        />
+    <TextView
+        android:id = "@+id/kuzov"
+        android:layout_width = "180dp"
+        android:layout_height = "wrap_content"
+        android:ellipsize = "end"
+        android:padding = "5dp"
+        android:singleLine = "true"
+        android:gravity = "center"
+        />
+</LinearLayout>

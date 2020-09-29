@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.autoparts.Fragment.FragmenInfoDetail"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fillViewport="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:id="@+id/name"
+            android:textColor="@color/colorBleak"
+            android:textSize="16dp"/>
+    <CheckBox
+        android:layout_weight="1"
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        style="?android:attr/starStyle"
+        android:id="@+id/checkbox"
+        android:buttonTint="@color/colorYellow"
+        android:shadowColor="@color/colorYellow"
+        />
+</LinearLayout>
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:src="@drawable/logo"
+            />
+
+
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:padding="3dp"
+            android:textColor="@color/colorBleak"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/kod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/type"
+            android:padding="3dp"
+            android:textColor="@color/colorBleak"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tsena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kod"
+            android:padding="3dp"
+            android:textColor="@color/colorBleak"
+            android:textSize="17dp" />
+        <TextView
+            android:id="@+id/opisanie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tsena"
+            android:padding="3dp"
+            android:textColor="@color/colorBleak"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</FrameLayout>
